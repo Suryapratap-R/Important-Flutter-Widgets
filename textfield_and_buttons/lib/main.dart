@@ -24,8 +24,12 @@ class MyHomePage extends StatelessWidget {
           hintText: 'Input here',
           hintStyle: TextStyle(
             color: Colors.red
-          )
-        ),)
+          ),
+        ),),
+        SizedBox(height: 20,),
+        RaisedButton(child: Text("Raised button"),),
+        SizedBox(height: 20,),
+        FlatButton(child: Text('Flat Button'),)
       ],
     );
   }
